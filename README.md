@@ -1,6 +1,7 @@
 # Point-Light-Display-Creator
 
 Author: Henry Powell
+
 Institution: Institute of Neuroscience and Psychology, University of Glasgow, UK.
 
 This program takes a csv file of positions of motion tracking markers and turns them into a point light display using
