@@ -53,18 +53,14 @@ num_frames = raw_data.shape[0]
 
 # Find min and max values in the data to set the fixed axes limits for the plots
 min_x = raw_data.min()
-print(min_x)
 min_x = int(np.min(min_x[::2]))
 max_x = raw_data.max()
 max_x = int(np.max(max_x[::2]))
 
 min_y = raw_data.min()
-print(min_y)
 min_y = int(np.min(min_y[1::2]))
 max_y = raw_data.max()
 max_y = int(np.max(max_y[1::2]))
-
-print(min_x, max_x, min_y, max_y)
 
 # This for-loop cycles through the data by rows creating an x-position vector and y-position vector from all the markers
 # at each time step. It then plot these as a scatter plot and saves the plot to the current working directory.
