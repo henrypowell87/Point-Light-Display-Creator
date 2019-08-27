@@ -18,3 +18,10 @@ If you are capturing data at high frame rates you will then need to slow down th
 by typing:
 
 ffmpeg -i previous_movie_filename.mp4 -filter:v "setpts=0.15*PTS" new_movie_file_name.mp4
+
+
+# Dependencies:
+
+1. Python 3.XX
+2. Numpy
+3. Matplotlib
